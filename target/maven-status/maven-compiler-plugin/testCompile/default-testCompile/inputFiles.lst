@@ -1,0 +1,16 @@
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Runners/Regression.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Utils/CommonMethods.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Pages/EmployeeListPage.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Runners/FailedRunner.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Pages/AddEmployeePage.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Utils/ExcelReading.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/steps/EmployeeSearchSteps.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/steps/AddEmployeeSteps.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/steps/DashBoardSteps.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Pages/DashBoardPage.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Runners/Smoke.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Pages/LoginPage.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Utils/ConfigReader.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/steps/LoginSteps.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/Utils/Constants.java
+/Users/suleozdemir/eclipse-workspace/CucumberProjects/src/test/java/steps/Hooks.java

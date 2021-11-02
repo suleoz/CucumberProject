@@ -1,0 +1,17 @@
+
+
+User story - verify login functionality --BA
+
+acceptance criteria-
+
+valid admin login
+
+valid ess login (less permisson)
+
+valid username and invalid password (performance testing)
+
+
+
+mike5472 mm loppez
+nailya647 mm restorn
+sule4567 mme joya
