@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -15,7 +16,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-
 public class CommonMethods {
     public static WebDriver driver;
 
@@ -25,9 +25,14 @@ public class CommonMethods {
         switch (ConfigReader.getPropertyValue("browser")) {
             case "chrome":
 //                System.setProperty("webdriver.chrome.driver", "src/drivers/chromedriver.exe");
+                ChromeOptions chromeOptions=new ChromeOptions();
+                chromeOptions.setHeadless(true);
+
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+
+                driver = new ChromeDriver(chromeOptions);
                 break;
+
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
